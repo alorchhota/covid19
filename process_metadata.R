@@ -18,13 +18,15 @@ temp_df = read_df(temp_fn, sep = ',', header = T, row.names = F)
 temp_dates = as.Date(colnames(temp_df), format = "%Y-%m-%d")
 temp_df$march_1_15_temp = rowMeans(temp_df[, (temp_dates>= as.Date("2020-03-01")) & 
                                           (temp_dates <= as.Date("2020-03-15")) & 
-                                          (!is.na(temp_dates)) ])
-
+                                          (!is.na(temp_dates)) ], 
+                                   na.rm = T)
+ 
 humidity_df = read_df(humidity_fn, sep = ',', header = T, row.names = F)
 humidity_dates = as.Date(colnames(humidity_df), format = "%Y-%m-%d")
 humidity_df$march_1_15_humidity = rowMeans(humidity_df[, (humidity_dates>= as.Date("2020-03-01")) & 
                                                   (humidity_dates <= as.Date("2020-03-15")) & 
-                                                  (!is.na(humidity_dates)) ])
+                                                  (!is.na(humidity_dates)) ], 
+                                           na.rm = T)
 
 
 meta_df = merge(state_df, population_df[,c('State', '2019')], by.x = "state", by.y = "State", all = F)
