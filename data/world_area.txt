@@ -1,0 +1,256 @@
+country	area 
+Russia	17,098,242
+Antarctica	14,000,000
+Canada	9,984,670
+United States	9,833,517
+China	9,596,960
+Brazil	8,515,770
+Australia	7,741,220
+India	3,287,263
+Argentina	2,780,400
+Kazakhstan	2,724,900
+Algeria	2,381,741
+Congo, Democratic Republic of the	2,344,858
+Greenland	2,166,086
+Saudi Arabia	2,149,690
+Mexico	1,964,375
+Indonesia	1,904,569
+Sudan	1,861,484
+Libya	1,759,540
+Iran	1,648,195
+Mongolia	1,564,116
+Peru	1,285,216
+Chad	1,284,000
+Niger	1,267,000
+Angola	1,246,700
+Mali	1,240,192
+South Africa	1,219,090
+Colombia	1,138,910
+Ethiopia	1,104,300
+Bolivia	1,098,581
+Mauritania	1,030,700
+Egypt	1,001,450
+Tanzania	947,300
+Nigeria	923,768
+Venezuela	912,050
+Namibia	824,292
+Mozambique	799,380
+Pakistan	796,095
+Turkey	783,562
+Chile	756,102
+Zambia	752,618
+Burma	676,578
+Afghanistan	652,230
+South Sudan	644,329
+France	643,801
+Somalia	637,657
+Central African Republic	622,984
+Ukraine	603,550
+Madagascar	587,041
+Botswana	581,730
+Kenya	580,367
+Yemen	527,968
+Thailand	513,120
+Spain	505,370
+Turkmenistan	488,100
+Cameroon	475,440
+Papua New Guinea	462,840
+Sweden	450,295
+Uzbekistan	447,400
+Morocco	446,550
+Iraq	438,317
+Paraguay	406,752
+Zimbabwe	390,757
+Japan	377,915
+Germany	357,022
+Congo, Republic of the	342,000
+Finland	338,145
+Vietnam	331,210
+Malaysia	329,847
+Norway	323,802
+Cote d'Ivoire	322,463
+Poland	312,685
+Oman	309,500
+Italy	301,340
+Philippines	300,000
+Ecuador	283,561
+Burkina Faso	274,200
+New Zealand	268,838
+Gabon	267,667
+Western Sahara	266,000
+Guinea	245,857
+United Kingdom	243,610
+Uganda	241,038
+Ghana	238,533
+Romania	238,391
+Laos	236,800
+Guyana	214,969
+Belarus	207,600
+Kyrgyzstan	199,951
+Senegal	196,722
+Syria	185,180
+Cambodia	181,035
+Uruguay	176,215
+Suriname	163,820
+Tunisia	163,610
+Bangladesh	148,460
+Nepal	147,181
+Tajikistan	144,100
+Greece	131,957
+Nicaragua	130,370
+Korea, North	120,538
+Malawi	118,484
+Eritrea	117,600
+Benin	112,622
+Honduras	112,090
+Liberia	111,369
+Bulgaria	110,879
+Cuba	110,860
+Guatemala	108,889
+Iceland	103,000
+Korea, South	99,720
+Hungary	93,028
+Portugal	92,090
+Jordan	89,342
+Azerbaijan	86,600
+Austria	83,871
+United Arab Emirates	83,600
+Czechia	78,867
+Serbia	77,474
+Panama	75,420
+Sierra Leone	71,740
+Ireland	70,273
+Georgia	69,700
+Sri Lanka	65,610
+Lithuania	65,300
+Latvia	64,589
+Svalbard	62,045
+Togo	56,785
+Croatia	56,594
+Bosnia and Herzegovina	51,197
+Costa Rica	51,100
+Slovakia	49,035
+Dominican Republic	48,670
+Estonia	45,228
+Denmark	43,094
+Netherlands	41,543
+Switzerland	41,277
+Bhutan	38,394
+Guinea-Bissau	36,125
+Taiwan	35,980
+Moldova	33,851
+Belgium	30,528
+Lesotho	30,355
+Armenia	29,743
+Solomon Islands	28,896
+Albania	28,748
+Equatorial Guinea	28,051
+Burundi	27,830
+Haiti	27,750
+Rwanda	26,338
+Macedonia	25,713
+Djibouti	23,200
+Belize	22,966
+El Salvador	21,041
+Israel	20,770
+Slovenia	20,273
+New Caledonia	18,575
+Fiji	18,274
+Kuwait	17,818
+Swaziland	17,364
+Timor-Leste	14,874
+Bahamas, The	13,880
+Montenegro	13,812
+Vanuatu	12,189
+Falkland Islands (Islas Malvinas)	12,173
+Qatar	11,586
+Gambia, The	11,300
+Jamaica	10,991
+Kosovo	10,887
+Lebanon	10,400
+Cyprus	9,251
+Puerto Rico	9,104
+West Bank	5,860
+Brunei	5,765
+Trinidad and Tobago	5,128
+French Polynesia	4,167
+Cabo Verde	4,033
+South Georgia and South Sandwich Islands	3,903
+Samoa	2,831
+Luxembourg	2,586
+Comoros	2,235
+Mauritius	2,040
+Virgin Islands	1,910
+Faroe Islands	1,393
+Hong Kong	1,108
+Sao Tome and Principe	964
+Turks and Caicos Islands	948
+Kiribati	811
+Bahrain	760
+Dominica	751
+Tonga	747
+Micronesia, Federated States of	702
+Singapore	697
+Saint Lucia	616
+Isle of Man	572
+Guam	544
+Andorra	468
+Northern Mariana Islands	464
+Palau	459
+Seychelles	455
+Curacao	444
+Antigua and Barbuda	443
+Barbados	430
+Heard Island and McDonald Islands	412
+Saint Helena, Ascension, and Tristan da Cunha	394
+Saint Vincent and the Grenadines	389
+Jan Mayen	377
+Gaza Strip	360
+Grenada	344
+Malta	316
+Maldives	298
+Cayman Islands	264
+Saint Kitts and Nevis	261
+Niue	260
+Saint Pierre and Miquelon	242
+Cook Islands	236
+American Samoa	199
+Marshall Islands	181
+Aruba	180
+Liechtenstein	160
+British Virgin Islands	151
+Wallis and Futuna	142
+Christmas Island	135
+Dhekelia	131
+Akrotiri	123
+Jersey	116
+Montserrat	102
+Anguilla	91
+Guernsey	78
+San Marino	61
+British Indian Ocean Territory	60
+French Southern and Antarctic Lands	55
+Saint Martin	54
+Bermuda	54
+Bouvet Island	49
+Pitcairn Islands	47
+Norfolk Island	36
+Sint Maarten	34
+Macau	28
+Tuvalu	26
+Saint Barthelemy	25
+United States Pacific Island Wildlife Refuges	22
+Nauru	21
+Cocos (Keeling) Islands	14
+Tokelau	12
+Paracel Islands	8
+Gibraltar	7
+Wake Island	7
+Clipperton Island	6
+Navassa Island	5
+Spratly Islands	5
+Ashmore and Cartier Islands	5
+Coral Sea Islands	3
+Monaco	2
+Holy See (Vatican City)	0
+
