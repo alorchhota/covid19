@@ -34,7 +34,7 @@ stopifnot(all(rownames(state_level_time_series_cases_df) == rownames(state_level
 
 ### latest date
 time_series_dates = lapply(colnames(time_series_cases_df), function(cn){
-  tryCatch(as.Date(cn, format = "%m/%d/%Y"), error = function(e){return(NA)} )
+  tryCatch(as.Date(cn, format = "%m/%d/%y"), error = function(e){return(NA)} )
 })
 date_start_col = min(which(!is.na(time_series_dates), arr.ind = T))
 date_end_col = max(which(!is.na(time_series_dates), arr.ind = T))

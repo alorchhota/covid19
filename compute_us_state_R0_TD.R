@@ -3,7 +3,7 @@ library(miscutil)
 library(stats)
 library(R0)
 
-state_cases_fn = "data/processed/us_state_time_series_cases_0020-04-11.txt"
+state_cases_fn = "data/processed/us_state_time_series_cases_2020-04-11.txt"
 min_count = 1
 min_day = 5
 covid19_generation_time_mean = 7.4
