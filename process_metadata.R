@@ -28,6 +28,8 @@ march_18_20_temp = rowMeans(temp_df[, (temp_dates>= as.Date("2020-03-18")) &
                                              (temp_dates <= as.Date("2020-03-20")) & 
                                              (!is.na(temp_dates)) ], 
                                    na.rm = T)
+
+colnames(temp_df) = gsub(pattern = "2020", replacement = "temperature-2020", colnames(temp_df))
 temp_df$march_1_15_temp = march_1_15_temp
 temp_df$march_13_15_temp = march_13_15_temp
 temp_df$march_18_20_temp = march_18_20_temp
@@ -47,6 +49,7 @@ march_18_20_humidity = rowMeans(humidity_df[, (humidity_dates>= as.Date("2020-03
                                                          (humidity_dates <= as.Date("2020-03-20")) & 
                                                          (!is.na(humidity_dates)) ], 
                                            na.rm = T)
+colnames(humidity_df) = gsub(pattern = "2020", replacement = "humidity-2020", colnames(humidity_df))
 humidity_df$march_1_15_humidity = march_1_15_humidity
 humidity_df$march_13_15_humidity = march_13_15_humidity
 humidity_df$march_18_20_humidity = march_18_20_humidity
@@ -54,8 +57,8 @@ humidity_df$march_18_20_humidity = march_18_20_humidity
 meta_df = merge(state_df, population_df[,c('State', '2019')], by.x = "state", by.y = "State", all = F)
 meta_df = merge(meta_df, area_df[,c('state', 'land_area_sqmi')], by.x = "state", by.y = "state", all = F)
 meta_df = merge(meta_df, gdp_df[,c('State/Region', 'Total_GDP_USD_2019_Q3')], by.x = "state", by.y = "State/Region", all = F)
-meta_df = merge(meta_df, temp_df[,c('name', 'march_1_15_temp', 'march_13_15_temp', 'march_18_20_temp')], by.x = "state", by.y = "name", all = F)
-meta_df = merge(meta_df, humidity_df[,c('name', 'march_1_15_humidity', 'march_13_15_humidity', 'march_18_20_humidity')], by.x = "state", by.y = "name", all = F)
+meta_df = merge(meta_df, temp_df, by.x = "state", by.y = "name", all = F)
+meta_df = merge(meta_df, humidity_df, by.x = "state", by.y = "name", all = F)
 
 colnames(meta_df) = gsub(pattern = "^2019$", replacement = "population", colnames(meta_df))
 meta_df$population = as.numeric(gsub(",","",meta_df$population))
