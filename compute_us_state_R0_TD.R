@@ -42,6 +42,7 @@ R0_fits = lapply(1:nrow(state_cases_df), function(ridx){
   names(to_ret) = as.character(all_cases_dates)
   to_ret[names(R0s$R)] = R0s$R
   plot(R0s)
+  legend("topright", state)
   
   return(list(days.R0 = days.R0,
               R0.TD = to_ret,
